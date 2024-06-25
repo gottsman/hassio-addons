@@ -4,8 +4,8 @@ set -e
 # ==============================================================================
 
 # Set variables
-slug=radarr
-port=7878
+slug=adguardhome-sync
+port=8080
 CONFIG_LOCATION=/config/addons_config/"$slug"/config.xml
 
 # Wait for transmission to become available

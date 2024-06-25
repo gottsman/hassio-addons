@@ -20,7 +20,7 @@ sed -i "s|%%ingress_entry%%|${ingress_entry}|g" /etc/nginx/servers/ingress.conf
 ##################
 
 # Values
-slug=radarr
+slug=adguardhome-sync
 CONFIG_LOCATION=/config/addons_config/"$slug"/config.xml
 
 if [ -f "$CONFIG_LOCATION" ]; then
